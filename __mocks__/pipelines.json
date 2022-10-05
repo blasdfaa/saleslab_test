@@ -1,0 +1,49 @@
+[
+  {
+    "name": "pipeline1",
+    "id": 31431431,
+    "stages": [
+      {
+        "type": "idleCount",
+        "price": 31000,
+        "count": 2
+      },
+      {
+        "type": "successCount",
+        "price": 3333,
+        "count": 12
+      },
+      {
+        "type": "failedCount",
+        "price": 904,
+        "count": 133
+      },
+      {
+        "type": "emptyCount",
+        "count": 1222
+      }
+    ]
+  },
+  {
+    "name": "pipeline2",
+    "id": 3143,
+    "stages": [
+      {
+        "type": "idleTask",
+        "count": 4314
+      },
+      {
+        "type": "successTask",
+        "count": 12
+      },
+      {
+        "type": "failedTask",
+        "count": 0
+      },
+      {
+        "type": "emptyTask",
+        "count": 335
+      }
+    ]
+  }
+]
